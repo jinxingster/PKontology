@@ -6,7 +6,9 @@ Paper-Keyword Ontology Modelling
 Jin Xing
 This project aims to build a framework to build the ontology representing the relationship among papers and their keywords. The paper-keyword ontology can help the knowledge discovery in Geothink, which delineates the “hot” keywords in different research fields, as well as the most important papers related to these keywords.  As shown in Figure 1, papers (rectangles) are linked with the corresponding keywords (circles) in their content, where the correlation numbers indicating the intensity of the correlation. 
  
- ![alt tag](http://url/to/img.png)
+ ![alt tag](https://github.com/jinxingster/PKontology/blob/master/pkmodel.gif)
+ 
+ 
  Figure 1. An example of Paper-Keyword Ontology
 
 This project is inspired by the “population, not sample” and “correlation, not causality” strategies from Miller and Goodchild (2014). We believe the relationship number will converge to its true value (i.e., the value agreed by most research scientists in certain fields), given enough professional input. There are two types of professional input: the manual input and the artificial intelligence input. The former one is provided by the paper reviewers, while the latter on is completed using keyword extraction techniques (Matsuo and Ishizuka, 2004). 

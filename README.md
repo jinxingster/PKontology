@@ -21,4 +21,6 @@ Reference
 
 
 Matsuo, Y., & Ishizuka, M. (2004). Keyword extraction from a single document using word co-occurrence statistical information. International Journal on Artificial Intelligence Tools, 13(01), 157-169.
+
+
 Miller, H. J., & Goodchild, M. F. (2014). Data-driven geography. GeoJournal, 1-13.

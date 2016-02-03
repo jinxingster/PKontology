@@ -41,9 +41,9 @@ public class serv extends HttpServlet {
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
            String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
-           String DB_URL = "jdbc:mysql://localhost/pkmodel";
-           String USER="jin";
-           String PASS="P123assword26";
+           String DB_URL = "jdbc:mysql://pkmodeldb.crtsgnnnfmdi.us-east-1.rds.amazonaws.com/pkmodel";
+           String USER="jxing";
+           String PASS="P123assword26$";;
            Connection conn = null;
            PreparedStatement stmt = null;
              Class.forName("com.mysql.jdbc.Driver");
@@ -55,7 +55,7 @@ public class serv extends HttpServlet {
             
             System.out.println("Creating statement...");
            
-            stmt = conn.prepareStatement("INSERT INTO tpaper (TITLE, AUTHOR, PUBLISHED, YEAR, MYNAME, NOFKEYS, COMMENT)  VALUES(?,?,?,?,?,?,?)");
+            stmt = conn.prepareStatement("INSERT INTO tpaper (TITLE, AUTHOR, PHUBLISHED, YEAR, MYNAME, NOFKEYS, COMMENT)  VALUES(?,?,?,?,?,?,?)");
             //SQLiteConnection db = new SQLiteConnection(dbyFile);
             String num=request.getParameter("nofkeys").toString();
             String nam=request.getParameter("name").toString();

@@ -21,9 +21,9 @@
           String paper=request.getParameter("title").toString();
           // store the paper-keyword relationship in mysql first.
            String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
-           String DB_URL = "jdbc:mysql://localhost/pkmodel";
-           String USER="jin";
-           String PASS="P123assword26";
+           String DB_URL = "jdbc:mysql://pkmodeldb.crtsgnnnfmdi.us-east-1.rds.amazonaws.com/pkmodel";
+           String USER="jxing";
+           String PASS="P123assword26$";
            Connection conn = null;
            PreparedStatement stmt = null;
            Class.forName("com.mysql.jdbc.Driver");
